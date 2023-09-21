@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import {enableProdMode} from '@angular/core';
+
+enableProdMode();
+
 
 @Component({
   selector: 'app-root',
@@ -8,3 +12,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'bankApp';
 }
+function bootstrap(arg0: any) {
+  throw new Error('Function not implemented.');
+}
+

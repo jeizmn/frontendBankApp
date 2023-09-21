@@ -4,12 +4,20 @@
     text-shadow: green;
     margin-left: 160px;
 }
+h1{
+    font-family: 'Playfair Display', serif;
+}
 
-#login_accno{
+#reg_accno{
     width: 250px;
     margin-left: 80px;
 }
-#login_pass{
+#reg_pass{
+    width: 250px;
+    margin-left: 80px;
+
+}
+#reg_uname{
     width: 250px;
     margin-left: 80px;
 
@@ -17,12 +25,5 @@
 
 #links{
     text-decoration: none;
-    margin-left: 30px;
-    
-}
-h1{
-    font-family: 'Playfair Display', serif;
-}
-#link2{
     color: green;
 }
